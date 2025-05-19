@@ -101,6 +101,7 @@ Once the application is running, you can access the interactive API documentatio
 
 ## Project Structure
 
+```
 Fastapi-project/
 ├── app/
 │   ├── models/           # SQLAlchemy models
@@ -120,6 +121,7 @@ Fastapi-project/
 ├── .env                  # Environment variables
 ├── requirements.txt      # Project dependencies
 └── README.md             # Project documentation
+```
 
 ## License
 
