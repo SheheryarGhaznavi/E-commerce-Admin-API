@@ -99,6 +99,11 @@ Once the application is running, you can access the interactive API documentatio
 - `PUT /inventory/update`: Update inventory stock level
   - Request body: `product_id`, `stock_level`
 
+
+## Error Handling
+
+The API includes comprehensive error handling with appropriate HTTP status codes and error messages. All endpoints are wrapped in try-except blocks to catch and log errors.
+
 ## Project Structure
 
 ```
